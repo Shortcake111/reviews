@@ -1,4 +1,4 @@
-body {
+/*body {
   background: linear-gradient(180deg, #ffffff 0%, #a3a3a3 12%, #3d3d3d 100%);
   background-repeat: no-repeat;
   height: 100vh;
@@ -12,6 +12,10 @@ nav {
     rgba(255, 209, 55, 1) 12%,
     rgba(218, 168, 0, 1) 100%
   );
+}
+
+header {
+  /*font-size: 1.5em;*/ /*
 }
 
 #content {
@@ -32,20 +36,19 @@ ul {
 }
 
 a {
-  font-size: 1.5em;
   animation: none;
 }
 
 a:hover i {
   /*-webkit-transform: rotate(-360deg);
-  transform: rotate(-360deg);*/
+  transform: rotate(-360deg);*/ /*
   animation: wiggle 0.5s ease-in-out;
 }
 
 i {
   width: 20%;
   /*-webkit-transition: transform 1s;
-  transition: transform 1s;*/
+  transition: transform 1s;*/ /*
 }
 
 .dropdown-menu {
@@ -73,3 +76,4 @@ i {
     transform: rotate(0deg);
   }
 }
+*/
