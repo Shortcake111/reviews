@@ -1,9 +1,81 @@
-.card {
-  margin: 15px; }
+.accordion {
+  /*margin: 15px;*/
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 #review {
   position: relative;
   overflow-y: scroll;
-  height: 700px; }
+  height: 700px;
+}
+
+#container {
+  overflow-y: scroll;
+}
+
+.accordion button {
+  color: black;
+  /*text-shadow: 0 0 2px rgb(102, 102, 102);*/
+  font-weight: 600;
+}
+
+.accordion button:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.accordion button:focus {
+  text-decoration: none;
+}
+
+.card-header {
+  pointer-events: none;
+  transition: 0.3s;
+  background: linear-gradient(90deg, #daa800 0%, rgba(0, 0, 0, 0) 4%, #ffeeb6 100%);
+  background-color: #fccb2d
+}
+
+.card-header button {
+  pointer-events: auto;
+  font-size: 0.7em;
+}
+
+.card-header:hover {
+  /*background: linear-gradient(90deg, #ffeeb6 0%, #ffd137 96%, #daa800 100%);*/
+  background-color: #daa800
+}
+
+.card {
+  /*background-color: rgba(255, 255, 255, 0.0)*/
+  background-color: #e9ecef;
+}
+
+th,
+td {
+  margin: 5px;
+  border: 1px solid white;
+}
+
+td {
+  width: 50px;
+  text-align: center;
+}
+
+th {
+  width: 120px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+iframe {
+  width: 100%;
+}
 
 /*# sourceMappingURL=reviews.css.map */

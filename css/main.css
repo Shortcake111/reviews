@@ -31,6 +31,10 @@ header nav .dropdown-menu {
   background-color: #f1c500;
 }
 
+header nav .dropdown-item {
+  transition: 0.3s;
+}
+
 header nav .dropdown-item:hover {
   background-color: #ffeb93;
 }
@@ -94,8 +98,6 @@ header nav .dropdown-item:visited {
     padding: 40px;
     height: 90vh;
   }
-
-
 }
 
 @media (max-width: 768px) {
@@ -108,8 +110,6 @@ header nav .dropdown-item:visited {
   .row {
     margin: 0px;
   }
-
-
 }
 
 @media (min-width: 992px) {
@@ -126,6 +126,10 @@ header nav .dropdown-item:visited {
 
 .clickable {
   cursor: pointer;
+}
+
+.card {
+  background-color: #e9ecef;
 }
 
 /*# sourceMappingURL=main.css.map */
