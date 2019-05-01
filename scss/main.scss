@@ -48,48 +48,8 @@ header {
   }
 }
 
-#container {
-  background-color: lightgray;
-  overflow: auto;
-}
-
 #random {
   cursor: not-allowed;
-}
-
-.card {
-  margin: 15px;
-
-  a {
-    text-decoration: none;
-    color: white;
-
-    img,
-    p,
-    h5 {
-      color: #212529;
-    }
-  }
-}
-
-@media (min-width: 720px) {
-  #container {
-    width: 95%;
-    padding: 20px;
-    height: 90vh;
-  }
-}
-
-@media (max-width: 720px) {
-  #container {
-    width: 100vw;
-    padding: 0px;
-    height: 92vh;
-  }
-
-  .row {
-    margin: 0px;
-  }
 }
 
 @keyframes wiggle {
@@ -124,4 +84,42 @@ header {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #614a00;
+}
+
+#carouselExampleCaptions {
+  h5,
+  p {
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+      1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: black;
+  }
+}
+
+#container {
+  background-color: lightgray;
+  overflow: auto;
+}
+
+@media (min-width: 720px) {
+  #container {
+    width: 95%;
+    padding: 20px;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 720px) {
+  #container {
+    width: 100vw;
+    padding: 0px;
+    height: 92vh;
+  }
+
+  .row {
+    margin: 0px;
+  }
+}
+
+.clickable {
+  cursor: pointer;
 }
