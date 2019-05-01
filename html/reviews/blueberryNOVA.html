@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>About me</title>
+    <title>Reviews</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -23,17 +23,23 @@
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href="../css/main.css"
+      href="../../css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../../css/reviews.css"
     />
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script defer src="../js/code.js"></script>
+    <script defer src="../../js/code.js"></script>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-sm navbar-light shadow">
-        <a class="navbar-brand" href="../index.html">
+        <a class="navbar-brand" href="../../index.html">
           <img
-            src="../img/icon.png"
+            src="../../img/icon.png"
             width="30"
             height="30"
             class="d-inline-block align-top rounded-circle"
@@ -54,22 +60,22 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav nav-fill">
             <li
-              class="nav-item active"
+              class="nav-item"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Welcome"
             >
-              <a class="nav-link" href="../index.html"
+              <a class="nav-link" href="../../index.html"
                 ><i class="fas fa-child"></i>
               </a>
             </li>
             <li
-              class="nav-item"
+              class="nav-item active"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Reviews"
             >
-              <a id="folder" class="nav-link" href="./reviews.html"
+              <a id="folder" class="nav-link" href="../reviews.html"
                 ><i class="fas fa-folder"></i
               ></a>
             </li>
@@ -104,10 +110,10 @@
                 class="dropdown-menu shadow"
                 aria-labelledby="navbarDropdown"
               >
-                <a class="dropdown-item" href="./info_reviews.html"
+                <a class="dropdown-item" href="../info_reviews.html"
                   ><i class="fas fa-pen-alt"></i> <span>My reviews</span></a
                 >
-                <a class="dropdown-item active" href="./info_me.html"
+                <a class="dropdown-item" href="../info_me.html"
                   ><i class="fas fa-user-circle"></i> <span>Me</span></a
                 >
               </div>
@@ -119,6 +125,53 @@
     <div id="container" class="container rounded">
       <div class="alert alert-info" role="alert">
         I'm sorry, I'm still working on this page. :/
+      </div>
+      <div class="row">
+        <nav id="navbar-review" class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#fat">@fat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mdo">@mdo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#one">one</a>
+                <a class="dropdown-item" href="#two">two</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#three">three</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div
+          id="review"
+          data-spy="scroll"
+          data-target="#navbar-review"
+          data-offset="0"
+        >
+          <h4 id="fat">@fat</h4>
+          <p>...</p>
+          <h4 id="mdo">@mdo</h4>
+          <p>...</p>
+          <h4 id="one">one</h4>
+          <p>...</p>
+          <h4 id="two">two</h4>
+          <p>...</p>
+          <h4 id="three">three</h4>
+          <p>...</p>
+        </div>
       </div>
     </div>
     <script
