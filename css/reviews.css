@@ -78,4 +78,14 @@ iframe {
   width: 100%;
 }
 
+h1 {
+  width: 50%;
+  display: inline-block;
+}
+
+#twitter {
+  width: 30%;
+  float: right;
+}
+
 /*# sourceMappingURL=reviews.css.map */

@@ -2,7 +2,7 @@ var navItems = document.querySelectorAll(".nav-item");
 var spans = document.querySelectorAll("span");
 var icons = document.querySelectorAll("i");
 
-$(function() {
+$(function () {
   $('[data-toggle="tooltip"]').tooltip();
 });
 
