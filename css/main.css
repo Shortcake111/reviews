@@ -12,6 +12,7 @@ header nav {
 header nav a {
   animation: none;
   font-size: 1.5em;
+  -webkit-user-drag: none;
 }
 
 header nav a i {

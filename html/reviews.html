@@ -11,7 +11,8 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
   <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-  <script defer src="../js/code.js"></script>
+  <script defer src="../js/overview.js"></script>
+  <!--script defer src="../js/code.js"></script-->
 </head>
 
 <body>
@@ -54,52 +55,7 @@
     </nav>
   </header>
   <div id="container" class="container rounded">
-    <div class="row review">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card shadow">
-          <img onclick="window.open('./reviews/blueberryNOVA.html')" src="../img/games/blueberryNOVA.jpg"
-            class="card-img-top clickable" alt="BlueberryNOVA" />
-          <div onclick="window.open('./reviews/blueberryNOVA.html')" class="card-body clickable">
-            <h5 class="card-title">BlueberryNOVA</h5>
-            <p class="card-text">
-              A new class, 2 interesting girls. Can you (♀️, 1st-person) get along with both? Short, multiple endings. 2
-              sexual scenes. Voiced: ✖️, EN: 👍
-            </p>
-          </div>
-          <div class="card-body">
-            <div class="btn-group" role="group" aria-label="Basic example">
-              <button onclick="window.open('https://store.steampowered.com/app/825550/BlueberryNOVA/')" type="button"
-                class="btn btn-dark">
-                Steam
-              </button>
-              <button onclick="window.open('https://vndb.org/v22812')" type="button"
-                class="btn btn-primary">VNDB</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card shadow">
-          <img onclick="window.open('./reviews/BigBoy.html')" src="../img/games/BigBoy.jpg"
-            class="card-img-top clickable" alt="BigBoy" />
-          <div onclick="window.open('./reviews/BigBoy.html')" class="card-body clickable">
-            <h5 class="card-title">BigBoy</h5>
-            <p class="card-text">
-              You had one job (♂️, 3rd-person), with many passengers. What happened? Very short, 1 ending. Unique art
-              style. No sexual content. Voiced: ✖️, EN: 👍
-            </p>
-          </div>
-          <div class="card-body">
-            <div class="btn-group" role="group" aria-label="Basic example">
-              <button onclick="window.open('https://store.steampowered.com/app/908690/BigBoy__Visual_Novel/')"
-                type="button" class="btn btn-dark">
-                Steam
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="reviewsOverview" class="row review"></div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

@@ -1,4 +1,17 @@
 .carousel-caption {
-  background-color: rgba(125, 125, 125, 0.4); }
+  background-color: rgba(125, 125, 125, 0.4);
+}
+
+.jumbotron {
+  background-color: #e9ecef;
+}
+
+.grey {
+  background-color: #e9ecef;
+}
+
+.list-group a {
+  background-color: transparent;
+}
 
 /*# sourceMappingURL=index.css.map */
