@@ -88,4 +88,13 @@ h1 {
   float: right;
 }
 
+spoiler {
+  background-color: #212529;
+}
+
+spoiler:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color ease-in 0.3s;
+}
+
 /*# sourceMappingURL=reviews.css.map */
