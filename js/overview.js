@@ -3,10 +3,10 @@ function capitalLetter(string) {
 }
 
 var urls = ['https://store.steampowered.com/app/825550/BlueberryNOVA/', "https://vndb.org/v22812"];
-var blueberryNOVA = ["BlueberryNOVA", "blueberryNOVA.jpg", "A new class, 2 interesting girls. Can you (♀️, 1st-person) get along with both? Short, multiple endings. 2 sexual scenes. Voiced: ✖️, EN: 👍", urls];
+var blueberryNOVA = ["blueberryNOVA", "blueberryNOVA.jpg", "A new class, 2 interesting girls. Can you (♀️, 1st-person) get along with both? Short, multiple endings. 2 sexual scenes. Voiced: ✖️, EN: 👍", urls];
 
 urls = ['https://store.steampowered.com/app/908690/BigBoy__Visual_Novel/'];
-var bigBoy = ["BigBoy", "bigBoy.jpg", "You had one job (♂️, 3rd-person), with many passengers. What happened? Very short, 1 ending. Unique art style. No sexual content. Voiced: ✖️, EN: 👍", urls];
+var bigBoy = ["bigBoy", "bigBoy.jpg", "You had one job (♂️, 3rd-person), with many passengers. What happened? Very short, 1 ending. Unique art style. No sexual content. Voiced: ✖️, EN: 👍", urls];
 
 urls = ['https://store.steampowered.com/app/363410/Always_The_Same_Blue_Sky/', 'https://vndb.org/v13110'];
 var alwaysTheSameBlueSky = ["Always The Same Blue Sky", "alwaysthesamebluesky.jpg", "You (choose ♂️ or ♀️, 1st-person) are the newbie in town. Go meet that mysterious girl from class! Very short, multiple endings. Sexual content: ✖️, voiced: ✖️, EN: 👍", urls]
