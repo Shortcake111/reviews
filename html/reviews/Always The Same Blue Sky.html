@@ -4,21 +4,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>About reviews</title>
+  <title>Reviews</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../../css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../../css/reviews.css" />
   <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-  <script defer src="../js/code.js"></script>
+  <script defer src="../../js/code.js"></script>
+  <script defer src="../../js/reviews/alwaysthesamebluesky.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-sm navbar-light shadow">
-      <a class="navbar-brand" href="../index.html">
-        <!--img src="../img/icon.png" width="30" height="30" class="d-inline-block align-top rounded-circle" /-->
+      <a class="navbar-brand" href="../../index.html">
+        <!--img src="../../img/icon.png" width="30" height="30" class="d-inline-block align-top rounded-circle" /-->
         Just Data
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -28,11 +31,11 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav nav-fill">
           <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Welcome">
-            <a class="nav-link" href="../index.html"><i class="fas fa-child"></i><span class="menu-label">Welcome</span>
+            <a class="nav-link" href="../../index.html"><i class="fas fa-child"></i><span class="menu-label">Welcome</span>
             </a>
           </li>
-          <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Reviews">
-            <a id="folder" class="nav-link" href="./reviews.html"><i class="fas fa-folder"></i>
+          <li class="nav-item active" data-toggle="tooltip" data-placement="bottom" title="Reviews">
+            <a id="folder" class="nav-link" href="../reviews.html"><i class="fas fa-folder"></i>
               <span
                 class="menu-label">Reviews</span></a>
           </li>
@@ -50,9 +53,9 @@
               <i class="fas fa-question"></i><span class="menu-label">About</span>
             </a>
             <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item active" href="./info_reviews.html"><i class="fas fa-pen-alt"></i> <span>My
+              <a class="dropdown-item" href="../info_reviews.html"><i class="fas fa-pen-alt"></i> <span>My
                   reviews</span></a>
-              <a class="dropdown-item" href="./info_me.html"><i class="fas fa-user-circle"></i> <span>Me</span></a>
+              <a class="dropdown-item" href="../info_me.html"><i class="fas fa-user-circle"></i> <span>Me</span></a>
             </div>
           </li>
         </ul>
@@ -60,12 +63,15 @@
     </nav>
   </header>
   <div id="container" class="container rounded">
-    <div class="alert alert-info" role="alert">
-      I'm sorry, I'm still working on this page. :/
+    <div class="row">
+      <div class="col">
+        <h1 id="title" class="mb-5"></h1>
+        <div id="twitter" class="d-flex justify-content-end">
+          <a class="twitter-follow-button" data-show-count="false"></a>
+        </div>
+        <div class="shadow mb-2" id="reviewContent"></div>
+      </div>
     </div>
-    <!--h1>About my reviews</h1>
-    <h2>Stats</h2>
-    <p>Number of reviews:</p-->
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
