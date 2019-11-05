@@ -23,6 +23,7 @@ $(function () {
 }*/
 
 function loadReview(vn) {
+  $("title").text(vn[1][0])
   $("#title").text(vn[1][0]);
   twitterBtn.attr("href", vn[2][0]);
   twitterBtn.text(vn[2][0]);
