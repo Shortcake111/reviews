@@ -11,7 +11,10 @@ var bigBoy = ["bigBoy", "bigBoy.jpg", "You had one job (♂️, 3rd-person), wit
 urls = ['https://store.steampowered.com/app/363410/Always_The_Same_Blue_Sky/', 'https://vndb.org/v13110'];
 var alwaysTheSameBlueSky = ["Always The Same Blue Sky", "alwaysthesamebluesky.jpg", "You (choose ♂️ or ♀️, 1st-person) are the newbie in town. Go meet that mysterious girl from class! Very short, multiple endings. Sexual content: ✖️, voiced: ✖️, EN: 👍", urls]
 
-var novels = [blueberryNOVA, bigBoy, alwaysTheSameBlueSky];
+urls = ['https://store.steampowered.com/app/1013580/Manna_for_our_Malices/', 'https://vndb.org/v25312'];
+var mannaForOurMalices = ["Manna for our Malices", "mannaForOurMalices.jpg", "Experience (♀️, 1st-person)  the process of getting stuck into a time loop. Discover all the dark mysteries sneaking around school. Very short, multiple endings. Sexual content: ✖️, voiced: ✖️, EN: 👍" , urls]
+
+var novels = [blueberryNOVA, bigBoy, alwaysTheSameBlueSky, mannaForOurMalices];
 
 novels.forEach(novel => {
     var cardOpening = "<div id=\"" + novel[0] + "\" class='col-12 col-md-6 col-lg-4'><div class='card shadow'>"
