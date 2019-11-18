@@ -152,6 +152,10 @@ header ul {
   .navbar-brand:nth-child(2) {
     display: none;
   }
+  
+  .navbar-brand::after {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
