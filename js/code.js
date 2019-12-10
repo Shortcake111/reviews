@@ -4,7 +4,7 @@ var icons = document.querySelectorAll("i");
 
 var twitterBtn = $("#twitter a");
 var reviewContent = document.querySelector("#reviewContent");
-var steamFrame = $("#steam");
+var steamBanner = $("#steamBanner");
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
@@ -27,6 +27,7 @@ function loadReview(vn) {
   $("#title").text(vn[1][0]);
   twitterBtn.attr("href", vn[2][0]);
   twitterBtn.text(vn[2][0]);
+  steamBanner.attr("src", vn[3]);
 
   reviewContent.innerHTML = "";
   for (var i = 1; i < (vn[0].length); i++) {
@@ -36,8 +37,6 @@ function loadReview(vn) {
       reviewContent.innerHTML += ("<div class=\"card mb-0\"><div class=\"card-header\"><h4 class=\"mb-0\">" + vn[0][i] + "</h4></div><div class=\"card-body\">" + vn[1][i] + "<p class=\"card-text\">" + vn[1][++i] + "</div></div>");
     }
   }
-
-  reviewContent.parentElement.innerHTML += "<iframe id=\"steam\" src=\"" + vn[3] + "\" frameborder=\"0\" width=\"646\" height=\"190\"></iframe>";
 }
 
 //testing
